@@ -1,7 +1,8 @@
   (function() {
       var queue = [],
           paused = false,
-          results;
+          results,fuck;
+
       this.test = function(name, fn) {
           queue.push(function() {
               results = document.getElementById("results");
